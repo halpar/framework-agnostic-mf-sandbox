@@ -1,0 +1,14 @@
+{
+  "name": "framework-agnostic-mf-sandbox",
+  "description": "Plugin that allows Vite apps to consume and expose microfrontends using Module Federation.",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"pnpm --filter shell dev\" \"pnpm --filter dashboard dev\"",
+    "build": "pnpm -r build"
+  },
+  "author": "Alper Sarper",
+  "license": "ISC",
+  "packageManager": "pnpm@10.4.1"
+}
