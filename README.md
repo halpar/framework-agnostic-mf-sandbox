@@ -85,7 +85,9 @@ framework-agnostic-mf-sandbox/
 │       └── localStorage.ts
 ├── pnpm-workspace.yaml
 └── README.md
+````
 
+---
 
 ## 🚀 Getting Started
 
@@ -94,7 +96,9 @@ To start the project locally:
 ```bash
 pnpm install
 pnpm dev    # Starts all apps concurrently (via dev script)
+```
 
+---
 
 ## 🧩 Extending This Project
 
@@ -110,4 +114,3 @@ This repository is designed to be modular and extendable. Here are a few ideas f
 
 
 > _Designed by [Alper Sarper](https://github.com/halpar) to explore real-world frontend architecture beyond the component level._
-````
